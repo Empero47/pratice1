@@ -1,0 +1,78 @@
+/* CSS Box Model */
+.box {
+    width: 300px;
+    border: 15px solid #000;
+    padding: 50px;
+    margin: 20px;
+}
+/* CSS margin */
+.m1 {
+    /* margin-top:100px;
+    margin-right: 80px;
+    margin-bottom:100px;
+    margin-left: 150px; */
+    /* margin: 50px;  //eqaul side  */
+    /* margin: 100px 150px; //top/bottom same value rigth/left same */
+    /* margin: 50px 140px 30px; when the bottom value is different */
+    margin: 100px 80px 100px 150px;
+}
+/* CSS padding */
+.p1 {
+    padding: 20px 30px;
+}
+/* CSS border */
+p.dotted {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #000;
+}
+p.dashed {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #000;
+}
+p.solid {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+}
+p.double {
+    border-style: double;
+    border-width: 5px;
+    border-color: #000;
+}
+p.groove {
+    border-style: groove;
+    border-width: 5px;
+    border-color: #000;
+}
+p.ridge {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #000;
+}
+p.inset {
+    border-style: inset;
+    border-width: 5px;
+    border-color: #000;
+}
+p.outset {
+    border-style: outset;
+    border-width: 5px;
+    border-color: #000;
+}
+p.none {
+    border-style: none;
+    border-width: 5px;
+    border-color: #000;
+}
+p.hidden {
+    border-style: hidden;
+    border-width: 5px;
+    border-color: #000;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+    border-width: 5px;
+    border-color: #000;
+}

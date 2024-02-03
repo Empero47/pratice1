@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Intro</title>
+    <!-- Internal JS (head) -->
+    <script></script>
+  </head>
+  <body>
+    <h1>JavaScript Can change HTML Content</h1>
+    <p id="demo">Hey Vicky</p>
+
+    <h1>JavaScript Can Change HTML Attribute Values</h1>
+    <button
+      onclick="document.getElementById('myImage').src='../img/pic_bulbon.gif'"
+    >
+      Turn On the Light
+    </button>
+    <img
+      id="myImage"
+      src="../img/pic_bulboff.gif"
+      style="width: 100px"
+      alt=""
+    />
+    <button
+      onclick="document.getElementById('myImage').src='../img/pic_bulboff.gif'"
+    >
+      Turn Off the Light
+    </button>
+
+    <!-- Internal JS (body) -->
+    <script></script>
+    <!-- External JS -->
+    <script src="../js/intro.js"></script>
+  </body>
+</html>

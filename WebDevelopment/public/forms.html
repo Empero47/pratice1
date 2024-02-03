@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Element</title>
+</head>
+<body>
+    <!-- An HTML form is used to collect user input. The user input 
+    is most often sent to a server for processing -->
+    <!-- Form element is a container for different types of input elements.
+    such as: text fields, checkboxes, radio buttons, submit buttons e.t.c -->
+
+    <!-- HTML Form Elements -->
+    <!-- 
+        1. <input>
+        2. <label>
+        3. <select>
+        4. <textarea>
+        5. <button>
+        6. <fieldset>
+        7. <legend>
+        8. <datalist>
+        9. <output>
+        10. <option>
+        11. <optgroup>
+     -->
+
+    <!-- The <input> Element -->
+    <!-- The <input> element can be displayed in several ways, depending
+    on the type attribute -->
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname">
+    <!-- The <label> Element -->
+    <!-- The <label> element defines a label for several form elements -->
+    <!-- The <select> Element -->
+    <!-- The <select> element defines a dropdown list: -->
+    <label for="cars">Choose a car:</label>
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi" selected>Audi</option>
+    </select>
+    <!-- The <option> Element -->
+    <!-- the option elements defines an option that can be selected. -->
+    <!-- The <textarea> Element -->
+    <!-- The <textarea> element defines a multi-line field (a text area) -->
+    <label for="message">Message:</label>
+    <textarea id="message" cols="20" rows="5">
+        please enter a message  
+    </textarea>
+    <!-- The rows attribute specifies the visible number of line in a textarea -->
+    <!-- The cols attribute specifies the visible width of a text area  -->
+    <!-- The <button> Element -->
+    <!-- The <button> element defines a clickable button -->
+    <button type="button">Click me!</button>
+    <!-- The <fieldset> and <legend> Elements -->
+    <!-- The <fieldset> element is used to group related data in a form -->
+    <!-- The <legend> element defines a caption for the <fieldset> element -->
+    <form>
+        <fieldset>
+            <!-- caption for the fieldset -->
+            <legend>Student Info:</legend>
+            <label for="fname2">First Name:</label>
+            <input type="text" id="fname2" placeholder="type here..."><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="type here..."><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="type here..."><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

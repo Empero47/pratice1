@@ -1,0 +1,11 @@
+p {
+    display: inline;
+}
+
+span, img, a {
+    display: block;
+}
+
+ul {
+    display: none;
+}

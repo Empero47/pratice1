@@ -1,0 +1,10 @@
+.container {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+.max {
+    max-width: 500px;
+    height: 100px;
+    background-color: cadetblue;
+}

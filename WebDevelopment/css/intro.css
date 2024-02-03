@@ -1,0 +1,20 @@
+/*
+External CSS
+
+CSS Selector?
+A selector specifies the target element you want to style
+
+or 
+A CSS selector selects the HTML element(s) you want to style
+
+CSS Selectors
+1. Simple selectors(select elements based on name, id, class)
+2. Combinator selectors (select elements based on a specific relationship
+between them)
+3. Pseudo-class selector(select elements based on a certain state)
+4. Pseudo-element selector(select and style a part of an element)
+5. Attribute selectors(select elements based on an attribute or attribute value).
+*/
+h2{
+    color: green;
+}

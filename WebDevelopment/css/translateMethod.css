@@ -1,0 +1,8 @@
+div {
+  width: 300px;
+  height: 100px;
+  background-color: #ffff00;
+  border: 1px solid #000;
+  /* transform: translate(x, y); */
+  transform: translate(50px, 100px);
+}

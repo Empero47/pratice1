@@ -1,0 +1,9 @@
+div {
+  margin: 150px;
+  padding: 50px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scale(2, 3);
+}

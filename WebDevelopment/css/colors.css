@@ -1,0 +1,36 @@
+/* 
+Colors are specified using predefined color names,
+ or RGB, HEX, HSL, RGBA, HSLA values. */
+
+/* Using color Name to set a Background-color */
+body {
+    background-color: white;
+}
+/* # to select id attr */
+#p1 {
+    color: blue;
+}
+/* Using RGB value to set a Background-color */
+/*
+An RGB values represents RED, GREEN and BLUE light sources.
+rgb(red, green, blue) where rgb(255,255,255) 0 - 255 
+ */
+ /* . to select class attr */
+.p2 {
+    color: rgb(255, 0, 0);
+}
+/* Using RGBA value to set a Background-color */
+/* RGBA color values are an extension of RGB color
+values with an alpha channel - which specifies the
+opacity for a color  alpha - 0.1 to 1 which is full opacity*/
+.container {
+    background-color: rgba(255, 45, 125, 0.2);
+}
+/* USING HEX VALUE TO SET A COLOUR*/
+/* HEXADECIMAL COLOUR IS SPECIFIED WITH;#RRGGBB, WHERE RR (RED), 
+GG (GREEEN) AND BB (BLUE) HEXADECIMAL INTEGERS SPECIFY THE COMPONENT OF THE COLOR
+..#FFFFFF OR #FFF REPRESENTS A WHITE COLOR. #000000 OR #000 REPRESENTS A BLACK COLOR */
+.something{
+    background-color: #0c96a1;
+}
+ 

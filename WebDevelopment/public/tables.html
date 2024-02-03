@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table Element</title>
+    <!-- Internal CSS -->
+    <style>
+        table, th, td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML tables allow web developers to arrange data into rows
+    and columns -->
+    <!-- A table consists of table cell inside rows and columns -->
+    <!-- HTML Table Sizes
+    HTML tables can have different sizes for each column, row, or the
+    entire table.
+    Use the style attribute with width or height properties to specify
+    the size of a table, row or column -->
+    <p>Table with width and height properties</p>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th style="width: 50%;">Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr style="height: 50px;">
+            <td>2000lux</td>
+            <td>@2000lux</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>NICO PLUS</td>
+            <td>donmrmark2004@gmail.com</td>
+            <td>Nigeria</td>
+        </tr>
+    </table><br>
+    <!-- Table2 -->
+    <!-- HTML tables - Horizontal header -->
+    <p>Table Headers</p>
+    <p>Horizontal Header</p>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr >
+            <td>2000lux</td>
+            <td>@2000lux</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>NICO PLUS</td>
+            <td>donmrmark2004@gmail.com</td>
+            <td>Nigeria</td>
+        </tr>
+    </table><br>
+    <!-- HTML tables - Vertical header -->
+    <p>Vertical Header</p>
+    <table>
+        <tr>
+            <th>Company</th>
+            <td>2000lux</td>
+            <td>NICO PLUS</td>
+        </tr>
+        <tr >
+            <th>Contact</th>
+            <td>@2000lux</td>
+            <td>donmrmark2004@gmail.com</td> 
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>Nigeria</td>
+            <td>Nigeria</td>
+        </tr>
+    </table><br>
+    <!-- HTML Table Colspan and Rowspan -->
+    <!-- HTML tables can have cells that span over multiple rows
+    and / or column -->
+    <p>HTML Table - Colspan</p>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Emmanuel</td>
+            <td>Kemakolam</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Emeka</td>
+            <td>Godson</td>
+            <td>33</td>
+        </tr>
+    </table><br>
+    <p>HTML Table - Rowspan</p>
+    <table>
+        <tr>
+            <th rowspan="2">Name</th>
+            <td>Emmanuel</td>
+            <td>Emeka</td>
+            
+        </tr>
+        <tr>
+            <td>Kemakolam</td>
+            <td>Godson</td>
+            
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>30</td>
+            <td>33</td>
+        </tr>
+    </table>
+</body>
+</html>
